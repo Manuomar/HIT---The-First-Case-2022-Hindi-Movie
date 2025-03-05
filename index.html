@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Viewer</title>
+    <style>
+        body{
+            background-color: #212121;
+            color: white;
+            height: 100%;
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            color: white;
+            
+        }
+        font{
+            color: red;
+        }
+        .mov{
+            margin: 20px;
+            height: 70%;
+            width: 90%;
+        }
+        .end{
+            
+            /* display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top:135px ;
+            background-color: black;
+            margin-left: 0;
+            margin-right: 0;
+            padding: 6px; */
+        
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        Movie <font> Viewer</font>
+    </div>
+    <div class="mov">
+       <h2> HIT - The First Case 2022 Hindi Movie </h2>
+       <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+        <iframe src="https://geo.dailymotion.com/player.html?video=x96hjr2"
+          style="width: 80%; height:80%; position:absolute; left:0px; top:0px; overflow:hidden; border:2px solid black;"
+          allowfullscreen
+          title="Dailymotion Video Player"
+          allow="web-share">
+        </iframe>
+      </div>
+    </div>
+    <div class="end">@manuomar</div>
+</body>
+</html>
